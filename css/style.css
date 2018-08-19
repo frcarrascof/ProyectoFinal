@@ -1,0 +1,23 @@
+body{
+	color: #252525;
+}
+
+nav .btn-primary{
+	background-color: #5c68ba;
+}
+
+nav .btn-primary:hover{
+	background-color: #6a78d6;
+}
+
+.btn-primary{
+	background-color: #5EA5CB;
+}
+
+.btn-primary:hover{
+	background-color: #65B8E5;
+}
+
+.footer{
+	background-color: #374a67;
+}

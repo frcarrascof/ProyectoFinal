@@ -1,7 +1,25 @@
 body{
 	color: #252525;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+    line-height: 1.8;
 }
 
+h4,h3{
+	font-weight: 600;
+}
+
+h3:before{
+	background: #00a6a0;
+  	content: "";
+  	display: block;
+  	height: 2px;
+  	position: absolute;
+    top: 100%;
+  	width: 80px;
+}
+
+/*Navbar*/
 nav .btn-primary{
 	background-color: #5c68ba;
 }
@@ -10,14 +28,64 @@ nav .btn-primary:hover{
 	background-color: #6a78d6;
 }
 
+nav {
+	background-color: #FFFFFF;
+	box-shadow: 0 2px 14px 0 rgba(0,0,0,0.20);
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+ }
+
+/*Botones*/
 .btn-primary{
-	background-color: #5EA5CB;
+	background: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    transition: background .4s;
 }
 
 .btn-primary:hover{
-	background-color: #65B8E5;
+	background: #FFFFFF;
+    color: #803a85;
+    border: 2px solid #803a85;
+    transition: background .4s, color .4s;
 }
 
+.btn-primary-dark{
+	background: transparent;
+    color: #803a85;
+    border: 2px solid #803a85;
+    transition: background .4s;
+}
+
+.btn-primary-dark:hover{
+	background: #803a85;
+    color: #FFFFFF;
+    border: 2px solid #803a85;
+    transition: background .4s, color .4s;
+}
+
+/*Footer*/
 .footer{
 	background-color: #374a67;
+}
+
+/*Contenedor principal*/
+.contenedor_principal{
+	background: rgb(128,58,133);
+	background: linear-gradient(321deg, rgba(128,58,133,1) 0%, rgba(91,56,146,1) 100%);
+	color: #eaeaea;
+}
+
+.contenedor_principal h2{
+	color: #ffffff;
+}
+
+
+/*Contenedor oscuro*/
+.container-dark{
+	background: rgb(128,58,133);
+	background: linear-gradient(321deg, rgba(128,58,133,1) 0%, rgba(91,56,146,1) 100%);
+	color: #eaeaea;
 }

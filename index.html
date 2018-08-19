@@ -7,19 +7,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
     <title>Inicio</title>
   </head>
   <body>
     <!-- Navegación -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="images/actitudIlimitada.png" height="40" alt=""></a>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top py-3">
+      <a class="navbar-brand" href="#"><img src="images/actitudIlimitada.png" height="20" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#">Inicio</a>
           </li>
           <li class="nav-item">
@@ -29,6 +32,9 @@
             <a class="nav-link" href="#">Quiénes somos</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">Noticias</a>
           </li>
         </ul>
@@ -36,22 +42,81 @@
     </nav>
 
     <!-- Información Clases - Imagen -->
-    <div class="container py-5">
-        <div class="col-lg-12">
-          <div class="row mx-auto">
-            <div class="col-lg-4 ">
+    <div class="container-block contenedor_principal py-5 mb-4">
+        <div class="col-lg-10 mx-auto">
+          <div class="row align-items-center h-100 mx-auto">
+            <div class="col-sm-6 col-lg-4 mx-auto text-center">
               <img src="images/fondo1.png" alt="" class="img-fluid">
             </div>
             <div class="col-lg-7">
-              <h3 class="pt-4">La actitud es una decisión diaria</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <h2 class="pt-4"><b>La actitud es una decisión diaria</b></h2>
+              <p>Somos una consultora de recursos humanos. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href=""><button class="btn btn-primary btn-md">¡Contáctanos!</button></a>
             </div>
           </div>
         </div>
     </div> 
 
     <!-- Servicios -->
-     <div class="container pb-5">
+     <div class="container py-5 mb-4">
+      <div class="row">
+        <div class="col-lg-12 mb-2">
+            <h3 class="pb-2">Nuestros Servicios</h3>
+        </div>
+        <div class="col-lg-8">
+          <p>Realizamos todo tipo de procesos de gestión del talento, procesos operativos a gerenciales. ¿Cuál es nuestra especialidad? <b>Los procesos para TI.</b></p>
+        </div>
+        <div class="col-lg-12">
+          <div class="row py-2">
+           <!-- Reclutamiento -->
+            <div class="col-lg-4">
+              <h4 class="pt-4 pb-2">Reclutamiento</h4>
+              <p>Ofrecemos servicios profesionales de reclutamiento. Te entregamos el mejor listado de candidatos y tú los entrevistas y decides.</p>
+              <a href=""><button class="btn btn-primary-dark">Más información</button></a>
+            </div>
+            <!-- Selección -->
+            <div class="col-lg-4">
+              <h4 class="pt-4 pb-2">Selección</h4>
+              <p>Tú nos entregas los candidatos que consideres deben ser parte de tu empresa, nosotros los evaluamos, entrevistamos y entregamos una terna para que escojas a quien más te haga sentido. (También te haremos sugerencias).</p>
+              <a href=""><button class="btn btn-primary-dark">Más información</button></a>
+            </div>
+            <!-- Reclutamiento y selección -->
+            <div class="col-lg-4">
+              <h4 class="pt-4 pb-2">Reclutamiento y selección</h4>
+              <p>Realizamos el proceso completo. Levantamiento de Perfil, Reclutamiento y Selección. </p>
+              <a href=""><button class="btn btn-primary-dark">Más información</button></a>
+            </div>
+            <!-- Talleres -->
+            <div class="col-lg-4">
+              <h4 class="pt-4 pb-2">Talleres</h4>
+              <p>Realizamos talleres de Expresión verbal, Autoconocimiento, Auotestima, Liderazgo, entre otros. También hacemos talleres personalizados. </p>
+              <a href=""><button class="btn btn-primary-dark">Más información</button></a>
+            </div>
+            <!-- Asesorías -->
+            <div class="col-lg-4">
+              <h4 class="pt-4 pb-2">Asesorías</h4>
+              <p>Hacemos asesorías de CV, Entrevistas presenciales, Entrevistas por competencias, entrevistas psicológicas, y entrevistas personalizadas.</p>
+              <a href=""><button class="btn btn-primary-dark">Más información</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Servicios -->
+    <div class="container-block container-dark py-5 mb-4 text-center">
+        <div class="col-lg-10 mx-auto mb-2 ">
+            <h2 class="pb-2">Servicios Personalizados</h2>
+        </div>
+        <div class="col-lg-8 mx-auto">
+          <p>¿Tienes alguna duda? ¿Te gustaría un servicio más personalizado?. Si gustas, nos tomamos un café y conversamos. En <b>Actitud Ilimitada</b> todo es posible.</p>
+              <a href=""><button class="btn btn-primary btn-md">¡Contáctanos!</button></a>
+
+        </div>
+        
+    </div>
+    <!-- Servicios -->
+ <!--     <div class="container pb-5">
       <div class="row">
         <div class="col-lg-12 mb-2 text-center">
             <h3>Nuestros Servicios</h3>
@@ -61,19 +126,16 @@
         </div>
         <div class="col-lg-12 text-center">
           <div class="row py-5">
-           <!-- Back End -->
             <div class="col-lg-4">
               <img src="https://dummyimage.com/200/e6e6e6/fff" alt="" class="img-fluid rounded-circle">
               <h4 class="pt-4">Reclutamiento</h4>
               <p>Ofrecemos servicios de reclutamiento, te entregamos el mejor listado y tú los entrevistas y decides.</p>
             </div>
-            <!-- Equipo Streaming -->
             <div class="col-lg-4">
               <img src="https://dummyimage.com/200/e6e6e6/fff" alt="" class="img-fluid rounded-circle">
               <h4 class="pt-4">Selección</h4>
               <p>ú nos entregas los candidatos que consideres deben ser parte de tu empresa, nosotros los evaluamos, entrevistamos y entregamos una terna para que escojas a quien más te haga sentido. (también te haremos sugerencias)</p>
             </div>
-            <!-- Equipo Front-End -->
             <div class="col-lg-4">
               <img src="https://dummyimage.com/200/e6e6e6/fff" alt="" class="img-fluid rounded-circle">
               <h4 class="pt-4">Reclutamiento y selección</h4>
@@ -82,19 +144,9 @@
           </div>
         </div>
       </div>
-    </div>
-
+    </div> -->
   
-    <!-- Imagen - Información General -->
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <img src="https://dummyimage.com/1000x300/e6e6e6/fff" alt="" class="img-fluid">
-          <h3 class="pt-4">CLASES LOREM IPSUM </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-    </div>
+    
     
 
 

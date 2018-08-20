@@ -5,7 +5,7 @@ body{
     line-height: 1.8;
 }
 
-h4,h3{
+h4,h3,h5{
 	font-weight: 600;
 }
 
@@ -47,8 +47,8 @@ nav {
 
 .btn-primary:hover{
 	background: #FFFFFF;
-    color: #803a85;
-    border: 2px solid #803a85;
+    color: #5b5b5b;
+    border: 2px solid #FFFFFF;
     transition: background .4s, color .4s;
 }
 
@@ -68,7 +68,8 @@ nav {
 
 /*Footer*/
 .footer{
-	background-color: #374a67;
+	background-color: #424242;
+	color: #e6e6e6;
 }
 
 /*Contenedor principal*/
@@ -84,8 +85,9 @@ nav {
 
 
 /*Contenedor oscuro*/
-.container-dark{
-	background: rgb(128,58,133);
-	background: linear-gradient(321deg, rgba(128,58,133,1) 0%, rgba(91,56,146,1) 100%);
+.container-blue{
+	background: rgb(85,141,180);
+	background: linear-gradient(321deg, rgba(85,141,180,1) 0%, rgba(87,167,157,1) 100%);
 	color: #eaeaea;
 }
+

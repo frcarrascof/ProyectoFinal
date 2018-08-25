@@ -91,13 +91,13 @@ nav {
 }
 
 /*Contenedor con fondo morado*/
-.contenedor_principal{
+.contenedor_morado{
 	background: rgb(128,58,133);
 	background: linear-gradient(321deg, rgba(128,58,133,1) 0%, rgba(91,56,146,1) 100%);
 	color: #eaeaea;
 }
 
-.contenedor_principal h2{
+.contenedor_morado h2{
 	color: #ffffff;
 }
 

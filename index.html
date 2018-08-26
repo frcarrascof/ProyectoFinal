@@ -11,6 +11,7 @@
     <title>Inicio</title>
   </head>
   <body>
+
     <!-- Navegación -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top py-3">
       <a class="navbar-brand" href="#"><img src="images/actitudIlimitada.png" height="20" alt=""></a>
@@ -106,7 +107,7 @@
             <div class="col-lg-4">
               <h4 class="pt-4 pb-2"><span class="fa-stack fa-1x mr-2"><i class="fas fa-circle fa-stack-2x" style="color:#B0924D"></i><i class="fas fa-hands-helping fa-stack-1x fa-inverse"></i></span>Asesorías</h4>
               <p>Hacemos asesorías de CV, Entrevistas presenciales, Entrevistas por competencias, Entrevistas psicológicas y personalizadas.</p>
-              <a href="aserorias.html"><button class="btn btn-primary-dark">Más información</button></a>
+              <a href="asesorias.html"><button class="btn btn-primary-dark">Más información</button></a>
             </div>
             <!-- Eventos -->
             <div class="col-lg-4">
@@ -200,8 +201,32 @@
         </div>
     </footer>
 
+    <!-- Flecha para subir -->
+    <a href="#" class="back-to-top" style="display: none;">
+      <i class="fas fa-arrow-up fa-2x"></i>
+    </a>
+
     <!-- JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+        var offset = 250;
+        var duration = 300;
+        jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+            } else {
+            jQuery('.back-to-top').fadeOut(duration);
+            }
+          });
+         
+          jQuery('.back-to-top').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({scrollTop: 0}, duration);
+            return false;
+            })
+        });
+    </script>
   </body>
 </html>

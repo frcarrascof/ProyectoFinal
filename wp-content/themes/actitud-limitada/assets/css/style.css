@@ -1,0 +1,139 @@
+/*Estilos generales*/
+body{
+  color: #252525;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+    line-height: 1.8;
+}
+
+a{
+  color: #00a6a0;
+}
+
+a:hover{
+  color: #007b77;
+}
+
+h4,h3,h5{
+  font-weight: 700;
+}
+
+.h3linea:before{
+  background: #00a6a0;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 100%;
+    width: 80px;
+}
+
+.h3lineacentrado:before{
+  background: #00a6a0;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 100%;
+    width: 80px;
+    text-align: center;
+}
+
+/*Navbar*/
+nav .btn-primary{
+  background-color: #5c68ba;
+}
+
+nav .btn-primary:hover{
+  background-color: #6a78d6;
+}
+
+nav {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 14px 0 rgba(0,0,0,0.20);
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+ }
+
+/* .dropdown:hover>.dropdown-menu {
+  display: block;
+}*/
+
+/*Botones*/
+.btn-primary{
+  background: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    transition: background .4s;
+}
+
+.btn-primary:hover{
+  background: #FFFFFF;
+    color: #5b5b5b;
+    border: 2px solid #FFFFFF;
+    transition: background .4s, color .4s;
+}
+
+.btn-primary-dark{
+  background: transparent;
+    color: #803a85;
+    border: 2px solid #803a85;
+    transition: background .4s;
+}
+
+.btn-primary-dark:hover{
+  background: #803a85;
+    color: #FFFFFF;
+    border: 2px solid #803a85;
+    transition: background .4s, color .4s;
+}
+
+/*Contenedor con fondo morado*/
+.contenedor_morado{
+  background: rgb(128,58,133);
+  background: linear-gradient(321deg, rgba(128,58,133,1) 0%, rgba(91,56,146,1) 100%);
+  color: #eaeaea;
+}
+
+.contenedor_morado h2{
+  color: #ffffff;
+}
+
+/*Contenedor con fondo azul*/
+.container-blue{
+  background: rgb(85,141,180);
+  background: linear-gradient(321deg, rgba(85,141,180,1) 0%, rgba(87,167,157,1) 100%);
+  color: #eaeaea;
+}
+
+.container-light{
+  background-color: #f2f2f2;
+
+}
+
+/*Footer*/
+.footer{
+  background-color: #2c2c2c;
+  color: #e6e6e6;
+}
+
+.texto_azul{
+  color: #00a6a0;
+}
+
+.back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);;
+
+}

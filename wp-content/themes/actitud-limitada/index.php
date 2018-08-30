@@ -83,7 +83,7 @@
         </div>
         <div class="col-lg-8 mx-auto">
           <p>¿Tienes alguna duda? ¿Te gustaría un servicio más personalizado? Si gustas, nos tomamos un café y conversamos. En <b>Actitud Ilimitada</b> todo es posible.</p>
-              <a href="contacto.html"><button class="btn btn-primary btn-md">¡Contáctanos!</button></a>
+          <a href="contacto.html"><button class="btn btn-primary btn-md">¡Contáctanos!</button></a>
         </div>
     </div>
 
@@ -102,7 +102,7 @@
             <?php query_posts('posts_per_page=3&cat=-3');?>
             <?php if(have_posts()): while(have_posts()): the_post(); ?>
               <div class="card m-3" style="width: 18rem;">
-                <?php the_post_thumbnail('post-thumbnail', ['class' => 'card-img-top']) ?>
+                <?php the_post_thumbnail('post-thumbnail', ['class' => 'card-img-top img-fluid']) ?>
                 <div class="card-body">
                   <h5 class="card-title"><?php the_title() ?></h5>
                   <p class="card-text"><?php the_excerpt() ?></p>

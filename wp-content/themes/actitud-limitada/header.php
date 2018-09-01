@@ -15,10 +15,22 @@
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top py-3">
       <a class="navbar-brand" href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/actitudIlimitada.png" height="20" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+        <?php
+          wp_nav_menu( array(
+            'menu'            => 'menu1',
+            'theme_location'  => 'main-menu',
+            'menu_id'         => 'navigation',
+            'depth'           => 3,
+            'container'       => false,
+            'menu_class'      => 'navbar-nav ml-auto',
+            'walker'          => new WP_Bootstrap_Navwalker()
+          ) );
+
+        ?>
+<!--    <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Inicio</a>
           </li>
@@ -42,7 +54,7 @@
           <li class="nav-item">
             <a class="nav-link" href="noticias.html">Noticias</a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </nav>
 

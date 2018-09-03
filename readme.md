@@ -24,3 +24,8 @@ Para poder acceder al cPanel del sitio web se deben realizar los siguientes paso
  2. Ingresar las credenciales del usuario administrador:
 	  **Usuario**: feg8fcarrasco
 	   **Clave**: dl2018g8fe
+
+## Datos de contacto
+>En caso de tener alguna duda respecto al uso del sitio web, mis datos de contacto son los siguientes:
+>Correo electronico: francisca.carrasco.farias@gmail.com
+>Telefono: +569 4551 6689
